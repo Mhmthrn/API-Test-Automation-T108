@@ -51,8 +51,8 @@ public class C01_Get_ApiSorgulama {
 /*
 
 
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/Mhmthrn/API-Test-Automation-T108.git
-git push -u origin main
+
+
+
+
  */
