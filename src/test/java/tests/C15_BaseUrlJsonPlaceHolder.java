@@ -78,7 +78,7 @@ public class C15_BaseUrlJsonPlaceHolder  extends JsonPlaceholderBaseUrl {
 
         response.then().assertThat()
                 .statusCode(200)
-                .body("id",Matchers.nullValue());
+                .body("body",Matchers.nullValue());
 
     }
 
