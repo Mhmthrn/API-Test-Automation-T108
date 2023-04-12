@@ -6,7 +6,7 @@ import java.util.HashMap;
 
 public class TestDataHerokuapp {
 
-    public int statusCode = 200;
+    public final static int statusCode = 200;
 
     /*
     {
@@ -25,7 +25,7 @@ public class TestDataHerokuapp {
        }
      */
 
-    public HashMap bookingDatesOlusturMap() {
+    public final static HashMap bookingDatesOlusturMap() {
 
         HashMap <String,Object> bookingdates = new HashMap<>();
 
@@ -34,7 +34,7 @@ public class TestDataHerokuapp {
 
         return bookingdates;
     }
-    public HashMap bookingOlusturMap() {
+    public final static HashMap bookingOlusturMap() {
 
         HashMap <String,Object> booking = new HashMap<>();
 
@@ -48,7 +48,7 @@ public class TestDataHerokuapp {
         return booking;
     }
 
-    public HashMap expBodyOlusturMap() {
+    public final static HashMap expBodyOlusturMap() {
 
         HashMap <String,Object> expBodyMap = new HashMap<>();
 
@@ -57,7 +57,7 @@ public class TestDataHerokuapp {
 
         return expBodyMap;
     }
-    public JSONObject innerBodyOlusturJson(){
+    public final static JSONObject innerBodyOlusturJson(){
 
         JSONObject innerBody = new JSONObject();
 
@@ -67,7 +67,7 @@ public class TestDataHerokuapp {
         return innerBody;
     }
 
-    public JSONObject requestBodyOlusturJson(){
+    public final static JSONObject requestBodyOlusturJson(){
 
         JSONObject reqBody = new JSONObject();
 
@@ -81,7 +81,7 @@ public class TestDataHerokuapp {
         return reqBody;
     }
 
-    public JSONObject expectedBodyOlusturJson(){
+    public final static JSONObject expectedBodyOlusturJson(){
 
         JSONObject expBody = new JSONObject();
 

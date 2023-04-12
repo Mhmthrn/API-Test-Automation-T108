@@ -44,7 +44,7 @@ public class C14_Put_SoftAssertIleExpectedDataTesti {
     public void put01(){
         //1- endpoit olustur requwust body olustur
 
-        String url="http://dummy.restapiexample.com/api/v1/update/1";
+        String url="https://dummy.restapiexample.com/api/v1/update/1";
 
         JSONObject data=new JSONObject();
         data.put("name", "Ahmet");
