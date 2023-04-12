@@ -3,12 +3,12 @@ package testData;
 import org.json.JSONObject;
 
 import java.util.HashMap;
+import java.util.Map;
 
 public class TestDataDummy {
 
     public int basariliStatusCode = 200;
     public String contentType = "application/json";
-
     /*
     {
     "status":"success",
@@ -68,4 +68,49 @@ public class TestDataDummy {
 
         return expBody;
     }
+
+
+    public static HashMap bizimExpectedMap(){
+
+
+        Map<String,Object> icData=new HashMap<>();
+
+        icData.put("id", 3.0);
+        icData.put("employee_name", "Ashton Cox");
+        icData.put("employee_salary", 86000.0);
+        icData.put("employee_age", 66.0);
+        icData.put( "profile_image", "");
+
+
+        Map<String,Object> expectedData=new HashMap<>();
+        expectedData.put("status","success");
+        expectedData.put("message","Successfully! Record has been fetched.");
+        expectedData.put("data",icData);
+
+
+        return (HashMap) expectedData;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
